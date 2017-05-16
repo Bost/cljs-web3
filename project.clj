@@ -1,9 +1,9 @@
-(defproject cljs-web3 "0.19.0-0"
+(defproject cljs-web3 "0.19.0-1"
   :description "Clojurescript API for Ethereum Web3 API"
   :url "https://github.com/madvas/cljs-web3"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojurescript "1.9.227"]
+  :dependencies [[org.clojure/clojurescript "1.9.542"]
                  [camel-snake-kebab "0.4.0"]
                  [cljsjs/web3 "0.19.0-0"]]
   :plugins [[lein-cljsbuild "1.1.4"]]
@@ -15,10 +15,10 @@
 
   :profiles {:dev
              {:dependencies [[org.clojure/clojure "1.8.0"]
-                             [binaryage/devtools "0.8.1"]
+                             [binaryage/devtools "0.9.4"]
                              [com.cemerick/piggieback "0.2.1"]
-                             [figwheel-sidecar "0.5.8"]
-                             [org.clojure/tools.nrepl "0.2.11"]]
+                             [figwheel-sidecar "0.5.10"]
+                             [org.clojure/tools.nrepl "0.2.13"]]
               :plugins [[lein-figwheel "0.5.8"]]
               :source-paths ["env/dev"]
               :resource-paths ["resources"]
